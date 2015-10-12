@@ -1,6 +1,9 @@
-	<link rel="stylesheet" type="text/css" href="_assets/style/screen.css" />
+<link rel="stylesheet" type="text/css" href="_assets/style/screen.css" />
 
-	<link rel="icon" type="image/ico" href="_assets/images/favicon.ico">
+<!-- <link rel="stylesheet/less" type="text/css" href="_assets/style/main.less" />
+<script src="_assets/scripts/less.js" type="text/javascript"></script> -->
 
-	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+<link rel="icon" type="image/ico" href="_assets/images/favicon.ico">
+
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
