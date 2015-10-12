@@ -15,4 +15,4 @@ At this point, I think she can write however she wants. Here&rsquo;s to you, Gra
 
 ## In Production
 
-[http://ccgbooks.com](ccgbooks.com)
+[ccgbooks.com](http://ccgbooks.com)
