@@ -1,14 +1,8 @@
 <?php
-    switch( $hostname ) {
-        case 'localhost':
-            define( 'WP_ENV', 'local' );
-            break;
-
-        case 'ccgbooks.com':
-            define( 'WP_ENV', 'production' );
-
-        default:
-            define( 'WP_ENV', 'production' );
+    if( $_SERVER['HTTP_HOST'] == 'localhost' ) {
+        $WP_ENV = 'local';
+    } else {
+        $WP_ENV = 'production';
     }
 
     if( $WP_ENV == 'production' ) {
