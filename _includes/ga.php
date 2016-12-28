@@ -5,6 +5,8 @@
             break;
 
         case 'ccgbooks.com':
+            define( 'WP_ENV', 'production' );
+
         default:
             define( 'WP_ENV', 'production' );
     }
