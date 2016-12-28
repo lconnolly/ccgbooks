@@ -1,4 +1,4 @@
-<!doctype html>  
+<!doctype html>
 <html dir="ltr" lang="en-US">
   <head>
     <meta charset="utf-8" />
@@ -6,11 +6,11 @@
     <meta name="description" content="About Constance C. Greene – Constance C. Greene was born in New York City and grew in a family of writers. Her parents and grandfather wrote for newspapers and began writing when she was eight or nine.">
 
     <?php include('_includes/head.php'); ?>
-    
+
   </head>
 	<body>
     <div class="main">
-      
+
       <?php include('_includes/header.php'); ?>
 
       <section class="about">
@@ -21,7 +21,9 @@
       </section>
 
       <?php include('_includes/footer.php'); ?>
-      
+
     </div><!-- main -->
+
+    <?php include('_includes/ga.php'); ?>
   </body>
 </html>

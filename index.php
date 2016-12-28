@@ -1,4 +1,4 @@
-<!doctype html>  
+<!doctype html>
 <html dir="ltr" lang="en-US">
     <head>
         <meta charset="utf-8" />
@@ -6,17 +6,17 @@
         <meta name="description" content="The Official Website of Constance C. Greene – Author and Speaker">
 
         <?php include('_includes/head.php'); ?>
-    
+
     </head>
     <body>
     <div class="main">
-      
+
         <?php include('_includes/header.php'); ?>
 
         <section class="books">
 
             <h1>Books &amp; Reviews</h1>
-            
+
             <article class="book">
                 <div class="book--cover">
                     <a href="http://www.amazon.com/gp/product/B00RWJPUWK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00RWJPUWK&linkCode=as2&tag=deluko-ccgbooks-20&linkId=PLIX46VVP4PGXAHM" target="_blank">
@@ -417,9 +417,11 @@
             </article>
 
         </section>
-        
+
         <?php include('_includes/footer.php'); ?>
-      
+
         </div><!-- main -->
+
+        <?php include('_includes/ga.php'); ?>
     </body>
 </html>

@@ -1,6 +1,12 @@
+<IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{THE_REQUEST} \s/+(.*?)\.php[\s?] [NC]
 RewriteRule ^ /%1 [R=301,L,NE]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Remove WWW
+RewriteCond %{HTTP_HOST} ^www\.ccgbooks\.com [NC]
+RewriteRule ^(.*)$ http://ccgbooks.com/$1 [L,R=301]
+</IfModule>
