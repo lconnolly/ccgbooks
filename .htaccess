@@ -9,4 +9,9 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
 # Remove WWW
 RewriteCond %{HTTP_HOST} ^www\.ccgbooks\.com [NC]
 RewriteRule ^(.*)$ http://ccgbooks.com/$1 [L,R=301]
+
+# Remove Addon Subdomain
+RewriteCond %{HTTP_HOST} ccgbooks.com.lukeconnolly.me$
+RewriteRule ^(.*)$ "https://ccgbooks.com" [R=301,L]
+
 </IfModule>
